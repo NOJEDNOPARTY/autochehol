@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>AVTORECARO.UA</title>
+	<meta name="viewport" id="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/icon"> 
+	<link rel="icon" href="images/favicon.ico" type="image/icon">
+	
+	<!--styles-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/jquery.fancybox.min.css" />
+
+
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '307336036787665');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=307336036787665&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+</head>
+<body>
+    <div class="banner">
+        <img src="./images/left-circles.png" alt="left-circles" class="left-circles">
+        <div class="banner-wrapper">
+            <div class="wrapper">
+                <header>
+                    <div class="nav-trigger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <a href="#"  class="logo">
+                        <div class="logo-title"><span>AVTO</span>RECARO</div>
+                        <div class="logo-subtitle">Модельные авточехлы №1 в Украине</div>
+                    </a>
+                    <nav>
+                        <a href="#product">Товары</a>
+                        <a href="#benefits">Преимущества</a>
+                        <a href="#review">Отзывы</a>
+                        <div class="callback">
+                            <a href="tel:+380977548739"><img src="./images/tel-icon.png" alt="tel-icon">+38 067 903 69 12</a>
+                            <a class="callback-btn"  href="">Заказать звонок</a>
+                        </div>
+                    </nav>
+                    <div class="header-blk">
+                        <div class="lang">
+                            <div class="lang-active">
+                                <span>RU</span>
+                                <img src="./images/russian.jpg" alt="russian">
+                            </div>
+                            <div class="lang-list">
+                                <div class="lang-list-item">
+                                    <span>RU</span>
+                                    <img src="./images/russian.jpg" alt="russian">
+                                </div>
+                                <div class="lang-list-item">
+                                    <span>UA</span>
+                                    <img src="./images/ukrainian.png" alt="ukrainian">
+                                </div>
+                                <div class="lang-list-item">
+                                    <span>EN</span>
+                                    <img src="./images/english.png" alt="english">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="callback">
+                            <a href="tel:+380679036912"><img src="./images/tel-icon.png" alt="tel-icon">+38 067 903 69 12</a>
+                            <a class="callback-btn" href="">Заказать звонок</a>
+                        </div>
+                    </div>
+                </header>
+                <div class="banner-blk">
+                    <div class="banner-cnt">
+                        <div class="banner-cnt-title">
+                            Современные авточехлы из <span>премиум материала</span> от производителя! По цене <span>от 1700 грн</span>
+                        </div>
+                        <div class="banner-img banner-img-mob">
+                            <img src="./images/chairs.png" alt="chairs">
+                        </div>
+                        <div class="banner-cnt-info">
+                            <div>
+                                <span>100</span>
+                                <span>% подойдут<br>на Ваш авто</span>
+                            </div>
+                            <div>
+                                <span>5</span>
+                                <span>лет прослужат<br>авточехлы</span>
+                            </div>
+                            <div>
+                                <span>45</span>
+                                <span>минут<br> занимает установка</span>
+                            </div>
+                        </div>
+                        <a href="#product" class="banner-cnt-choose btn">Подобрать чехол</a>
+                    </div>
+                    <div class="banner-img">
+                        <img src="./images/chairs.png" alt="chairs">
+                    </div>
+                </div>
+            </div>
+            <form action="javascript:void(0);" method="POST" id="form__1">
+                <input type="hidden" name="subject" value="Закажите прямо сейчас и получите подарок - Подобрать чехол">
+
+                <div class="banner-form-title">Подберем авточехлы на Ваш авто за 5 минут</div>
+                <div class="banner-form-fields">
+                    <input type="tel" class="field phone-mask" placeholder="Ваш телефон *" name="phone" required>
+                    <input type="text" class="field" placeholder="Модель авто *" name="marka_avto" required>
+                    <input type="submit" class="field btn" value="Подобрать чехол">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="product" class="best">
+        <div class="wrapper">
+            <div class="title wow bounceInUp"><span>каталог </span>модельных авточехлов</div>
+            <div class="best-tabs">
+                <button data-name="card-wrapper-1" class="field btn">Тканевые</button>
+                <button data-name="card-wrapper-2" class="field">Эко-кожа</button>
+                <button data-name="card-wrapper-3" class="field">Алькантара</button>
+            </div>
+            <div class="card-wrapper card-wrapper-1 active">
+                <div class="card">
+                    <div class="card-cnt">
+                        <a data-fancybox="gallery" href="./images/card-item-1.jpg"><img src="./images/card-item-1.jpg" alt="card-item-1"></a>
+                        <a data-fancybox="gallery" href="./images/card-item-2.jpg"><img src="./images/card-item-2.jpg" alt="card-item-2"></a>
+                        <a data-fancybox="gallery" href="./images/card-item-3.jpg"><img src="./images/card-item-3.jpg" alt="card-item-3"></a>
+                        <a data-fancybox="gallery" href="./images/card-item-4.jpg"><img src="./images/card-item-4.jpg" alt="card-item-4"></a>
+                        <!-- <a data-fancybox="gallery" href="./images/card-item-5.jpg"><img src="./images/card-item-5.jpg" alt="card-item-5"></a> -->
+                    </div>
+                    <div class="card-nav">
+                        <img src="./images/card-item-1.jpg" alt="card-item-1">
+                        <img src="./images/card-item-2.jpg" alt="card-item-2">
+                        <img src="./images/card-item-3.jpg" alt="card-item-3">
+                        <img src="./images/card-item-4.jpg" alt="card-item-4">
+                        <img src="./images/card-item-5.jpg" alt="card-item-5">
+                        <!-- <img src="./images/card-item-5.jpg" alt="card-item-5"> -->
+                    </div>
+                </div>
+                <form class="card-item">
+                    <div class="card-item-title">Авточехлы из оригинальной автоткани</div>
+                    <div class="card-item-info">
+                        <div class="card-item-info-left">
+                            <div class="card-item-colors">
+                                <div class="card-item-subtitle">Доступные цвета:</div>
+                                <div class="colors">
+                                    <input class="orange" type="radio" name="color" value="orange">
+                                    <input class="red" type="radio" name="color" value="red">
+                                    <input class="green" type="radio" name="color" value="green">
+                                    <input class="blue" type="radio" name="color" value="blue">
+                                    <input class="black" type="radio" name="color" value="black">
+                                </div>
+                            </div>
+                            <div class="card-item-price">
+                                <div class="card-item-subtitle">Цена:</div>
+                                <div class="item-price">от 1700 грн</div>
+                            </div>
+                        </div>
+                        <div class="card-item-info-benefits">
+                            <div>
+                                <div> <img src="./images/reload.png" alt="reload"></div>
+                                <p>Гарантия обмена или<br>возврата, если не подошли</p>
+                            </div>
+                            <div>
+                                <div> <img src="./images/calendar.png" alt="calendar"></div>
+                                <p>Отправим день<br>в день</p>
+                            </div>
+                            <div>
+                                <div><img src="./images/man.png" alt="man"></div>
+                                <p>Возможен индивидуальный<br>заказ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn callback-btn tkan-order" value="ПОДОБРАТЬ В ОДИН КЛИК">
+                </form>
+            </div>
+            <div class="card-wrapper card-wrapper-2">
+                <div class="card">
+                    <div class="card-cnt">
+                        <a data-fancybox="gallery" href="./images/card-item-6.jpg"><img src="./images/card-item-6.jpg" alt="card-item-6"></a>
+                        <a data-fancybox="gallery" href="./images/card-item-7.jpg"><img src="./images/card-item-7.jpg" alt="card-item-7"></a>
+                        <a data-fancybox="gallery" href="./images/card-item-8.jpg"><img src="./images/card-item-8.jpg" alt="card-item-8"></a>
+                        <a data-fancybox="gallery" href="./images/card-item-9.jpg"><img src="./images/card-item-9.jpg" alt="card-item-9"></a>
+                        <a data-fancybox="gallery" href="./images/card-item-10.jpg"><img src="./images/card-item-10.jpg" alt="card-item-10"></a>
+                         <a data-fancybox="gallery" href="./images/card-item-11.jpg"><img src="./images/card-item-11.jpg" alt="card-item-11"></a>
+                        <!-- <a data-fancybox="gallery" href="./images/card-item-5.jpg"><img src="./images/card-item-5.jpg" alt="card-item-5"></a> -->
+                    </div>
+                    <div class="card-nav">
+                        <img src="./images/card-item-6.jpg" alt="card-item-6">
+                        <img src="./images/card-item-7.jpg" alt="card-item-7">
+                        <img src="./images/card-item-8.jpg" alt="card-item-8">
+                        <img src="./images/card-item-9.jpg" alt="card-item-9">
+                        <img src="./images/card-item-10.jpg" alt="card-item-10">
+                        <img src="./images/card-item-11.jpg" alt="card-item-11">
+                        <!-- <img src="./images/card-item-5.jpg" alt="card-item-5"> -->
+                    </div>
+                </div>
+                <form class="card-item">
+                    <div class="card-item-title">Авточехлы из экокожи </div>
+                    <div class="card-item-info">
+                        <div class="card-item-info-left">
+                            <div class="card-item-colors">
+                                <div class="card-item-subtitle">Доступные цвета:</div>
+                                <div class="colors">
+                                    <input type="radio" name="color" value="orange">
+                                    <input type="radio" name="color" value="red">
+                                    <input type="radio" name="color" value="green">
+                                    <input type="radio" name="color" value="blue">
+                                    <input type="radio" name="color" value="black">
+                                </div>
+                            </div>
+                            <div class="card-item-price">
+                                <div class="card-item-subtitle">Цена:</div>
+                                <div class="item-price">от 3800 грн</div>
+                            </div>
+                        </div>
+                        <div class="card-item-info-benefits">
+                            <div>
+                                <div> <img src="./images/reload.png" alt="reload"></div>
+                                <p>Гарантия обмена или<br>возврата, если не подошли</p>
+                            </div>
+                            <div>
+                                <div> <img src="./images/calendar.png" alt="calendar"></div>
+                                <p>Отправим день<br>в день</p>
+                            </div>
+                            <div>
+                                <div><img src="./images/man.png" alt="man"></div>
+                                <p>Возможен индивидуальный<br>заказ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn callback-btn eko-kogha" value="ПОДОБРАТЬ В ОДИН КЛИК">
+                </form>
+            </div>
+            <div class="card-wrapper card-wrapper-3">
+                <div class="card">
+                    <div class="card-cnt">
+                        <a data-fancybox="gallery" href="./images/card-item-12.jpg"><img src="./images/card-item-12.jpg" alt="card-item-11"></a>
+                        <a data-fancybox="gallery" href="./images/card-item-13.jpg"><img src="./images/card-item-13.jpg" alt="card-item-12"></a>
+                        <a data-fancybox="gallery" href="./images/card-item-14.jpg"><img src="./images/card-item-14.jpg" alt="card-item-13"></a>
+                        <a data-fancybox="gallery" href="./images/card-item-15.jpg"><img src="./images/card-item-15.jpg" alt="card-item-14"></a>
+                        <!-- <a data-fancybox="gallery" href="./images/card-item-5.jpg"><img src="./images/card-item-5.jpg" alt="card-item-5"></a> -->
+                    </div>
+                    <div class="card-nav">
+                        <img src="./images/card-item-12.jpg" alt="card-item-12">
+                        <img src="./images/card-item-13.jpg" alt="card-item-13">
+                        <img src="./images/card-item-14.jpg" alt="card-item-14">
+                        <img src="./images/card-item-15.jpg" alt="card-item-15">
+                        <!-- <img src="./images/card-item-5.jpg" alt="card-item-5"> -->
+                    </div>
+                </div>
+                <form class="card-item">
+                    <div class="card-item-title">Авточехлы из алькантары</div>
+                    <div class="card-item-info">
+                        <div class="card-item-info-left">
+                            <div class="card-item-colors">
+                                <div class="card-item-subtitle">Доступные цвета:</div>
+                                <div class="colors">
+                                    <a href="" class="orange"></a>
+                                    <a href="" class="red"></a>
+                                    <a href="" class="green"></a>
+                                    <a href="" class="blue"></a>
+                                    <a href="" class="black"></a>
+                                </div>
+                            </div>
+                            <div class="card-item-price">
+                                <div class="card-item-subtitle">Цена:</div>
+                                <div class="item-price">от 3800 грн</div>
+                            </div>
+                        </div>
+                        <div class="card-item-info-benefits">
+                            <div>
+                                <div> <img src="./images/reload.png" alt="reload"></div>
+                                <p>Гарантия обмена или<br>возврата, если не подошли</p>
+                            </div>
+                            <div>
+                                <div> <img src="./images/calendar.png" alt="calendar"></div>
+                                <p>Отправим день<br>в день</p>
+                            </div>
+                            <div>
+                                <div><img src="./images/man.png" alt="man"></div>
+                                <p>Возможен индивидуальный<br>заказ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn callback-btn kombo" value="ПОДОБРАТЬ В ОДИН КЛИК">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="benefits" class="benefits-container">
+        <div class="wrapper">
+            <div class="title title-g title-white">
+                <span>Наши</span>
+                Преимущества
+            </div>
+            <div class="benefits">
+                <div class="bnf">
+                    <div class="bnf-img bnf-img-1">
+                        <img src="./images/bnf-1.png" alt="bnf">
+                    </div>
+                    <div class="bnf-title">Удобная система крепежа</div>
+                    <div class="bnf-subtitle">Три рахных метода крепежа <br>для Вашего удобства</div>
+                </div>
+                <div class="bnf">
+                    <div class="bnf-img bnf-img-2">
+                        <img src="./images/bnf-2.png" alt="bnf">
+                    </div>
+                    <div class="bnf-title">Система двойной шов</div>
+                    <div class="bnf-subtitle">Использование метода<br>двойного прохождения<br>сверхпрочной нитю</div>
+                </div>
+                <div class="bnf">
+                    <div class="bnf-img  bnf-img-3">
+                        <img src="./images/bnf-3.png" alt="bnf">
+                    </div>
+                    <div class="bnf-title">Разрывной шов air bag</div>
+                    <div class="bnf-subtitle">Не мешает работе штатной<br>системе AIR. Мы позаботелись о<br>Вашей безопасновти</div>
+                </div>
+                <div class="bnf">
+                    <div class="bnf-img  bnf-img-4">
+                        <img src="./images/bnf-4.png" alt="bnf">
+                    </div>
+                    <div class="bnf-title">пошив по заводским<br>лекалам сидений</div>
+                    <div class="bnf-subtitle">Карманы и функции<br>складывания спинок</div>
+                </div>
+                <div class="bnf">
+                    <div class="bnf-img  bnf-img-5">
+                        <img src="./images/bnf-5.png" alt="bnf">
+                    </div>
+                    <div class="bnf-title">внешний вид<br>перетянутого салона</div>
+                    <div class="bnf-subtitle">100% внешний вид салона<br>уровня</div>
+                </div>
+                <div class="bnf">
+                    <div class="bnf-img  bnf-img-6">
+                        <img src="./images/bnf-6.png" alt="bnf">
+                    </div>
+                    <div class="bnf-title">только дишащие<br>материалы</div>
+                    <div class="bnf-subtitle">Не мешает работе штатной<br>системе AIR. Мы позаботелись о<br>Вашей безопасновти</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="presents">
+        <div class="wrapper">
+            <div class="present">
+                <div class="title title-new"><span>Подарки</span> при <br> заказе чехлов</div>
+                <div class="subtitle">Закажи чехол и получи подарок</div>
+                <div class="present-items">
+                    <div class="present-item">
+                        <div class="present-item-img"><img src="./images/present-item-1.png" alt="present-item"></div>
+                        <div class="present-item-title">15% скидки<br>на коврики</div>
+                    </div>
+                    <div class="present-item">
+                        <div class="present-item-img"><img src="./images/present-item-2.png" alt="present-item"></div>
+                        <div class="present-item-title">Спрей для<br>чистки сидений</div>
+                    </div>
+                    <div class="present-item">
+                        <div class="present-item-img"><img src="./images/present-item-3.png" alt="present-item"></div>
+                        <div class="present-item-title">10% скидки на<br>второй комплект<br>чехлов</div>
+                    </div>
+                </div>
+            </div>
+            <form action="javascript:void(0);" method="POST" id="form-5min">
+                <input type="hidden" name="subject" value="Подобрать чехол за 5 минут">
+                <div class="title">Подобрать чехол за 5 минут</div>
+                <input type="tel" class="field phone-mask" placeholder="Ваш телефон *" name="phone" required>
+                <input type="text" class="field" placeholder="Марка авто *" name="marka_avto" required>
+                <input type="submit" value="Отправить" class="btn call-thanksPopup">
+            </form>
+        </div>
+    </div>
+    <div id="review" class="trust">
+        <div class="wrapper">
+            <div class="title"><span>Вот почему 5320 клиентов</span> Нам доверяют</div>
+            <div class="documents">
+                <a data-fancybox="gallery" href="./images/doc-1.jpg"   class="documents-item"><img src="./images/doc-1.jpg" alt="doc"></a>
+                <a data-fancybox="gallery" href="./images/doc-2.jpg"  class="documents-item"><img src="./images/doc-2.jpg" alt="doc"></a>
+                <a  data-fancybox="gallery" href="./images/doc-3.jpg"  class="documents-item"><img src="./images/doc-3.jpg" alt="doc"></a>
+                <a data-fancybox="gallery" href="./images/doc-3.jpg"  class="documents-item"><img src="./images/doc-3.jpg" alt="doc"></a>
+                <a data-fancybox="gallery"  href="./images/doc-3.jpg"  class="documents-item"><img src="./images/doc-3.jpg" alt="doc"></a>
+            </div>
+        </div>
+    </div>
+    <div class="works">
+        <div class="wrapper">
+            <div class="title title-g title-white  title-new">
+                <span>Схема</span>
+                Работы
+            </div>
+            <div class="benefits">
+                <div class="bnf">
+                    <div class="bnf-img">
+                        <img src="./images/bnf-7.png" alt="bnf">
+                    </div>
+                    <div class="bnf-title">Оформление заказа</div>
+                    <div class="bnf-subtitle">Оформите заказ по<br>телефону или на сайте</div>
+                </div>
+                <div class="bnf">
+                    <div class="bnf-img">
+                        <img src="./images/bnf-8.png" alt="bnf">
+                    </div>
+                    <div class="bnf-title">Подтверждение заказа</div>
+                    <div class="bnf-subtitle">Наш менеджер свяжется с<br>Вами для подтверждения<br>заказа и уточнения дизайна<br>авточехлов</div>
+                </div>
+                <div class="bnf">
+                    <div class="bnf-img">
+                        <img src="./images/bnf-9.png" alt="bnf">
+                    </div>
+                    <div class="bnf-title">Отправка чехлов</div>
+                    <div class="bnf-subtitle">Посылка будет отправлена<br>в день подтверждения<br>заказа или после пошива<br>чехлов</div>
+                </div>
+                <div class="bnf">
+                    <div class="bnf-img">
+                        <img src="./images/bnf-10.png" alt="bnf">
+                    </div>
+                    <div class="bnf-title">Получение товара</div>
+                    <div class="bnf-subtitle">Заберите чехол в<br>отделении «Новая почта»<br>через 1-2 дня</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="wrapper">
+            <div class="title"><span>о нашей</span> компании</div>
+            <div class="about-cnt">
+                <div class="about-cnt-txt">
+                    <p>Компания AVTORECARO представлена на рынке Украины уже более 12 лет. Основная продукция компании: модельные авточехлы из автоткани, авточехлы из эко кожи, авточехлы из алькантары. Купить модельные авточехлы всегда можно у нас на сайте. Для Вашего удобства мы создали склад гарантированого наличия чехлов. Где храняться более 10 000 авточехлов.</p>
+
+                    <p>Но у всех вкусы разные, и о них не спорят. Если нужной расцветки нет в наличии, Вы можете заказать пошив авточехлов на заказ, под Ваш бюджет и цветовое решение. Срок пошива до 14 рабочих дней. Наши менеджера всегда найдут лучший  вариант  под Ваш бюджет. Авточехлы из наличия на складе мы отправляем без предоплаты. </p>
+                </div>
+                <div class="about-cnt-img">
+                    <img src="./images/about-img.png" alt="about-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="wrapper">
+            <div class="contact-info">
+                <div class="title title-white"><span>НАШИ</span> Контакты</div>
+                <a href="tel:+380679036912" class="social-item">
+                    <img src="./images/tel-i.png" alt="tel-icon">
+                    <span>+38 067 903-69-12</span>
+                </a>
+                <a href="tel:+380442923030" class="social-item">
+                    <img src="./images/tel-i.png" alt="tel-icon">
+                    <span>+38 044 292-30-30</span>
+                </a>
+                <a href="mailto:avtorecaro@gmail.com" class="social-item mail">
+                    <img src="./images/mail-icon.png" alt="tel-icon">
+                    <span>avtorecaro@gmail.com</span>
+                </a>
+                <div class="social">
+                    <a href=""><img src="./images/youtube.png" alt="youtube"></a>
+                    <a href=""><img src="./images/facebook.png" alt="youtube"></a>
+                    <a href=""><img src="./images/instagram.png" alt="youtube"></a>
+                </div>
+            </div>
+            <form action="javascript:void(0);" method="POST" id="form-last">
+                <input type="hidden" name="subject" value="Остались вопросы">
+
+                <div class="title title-white">Остались вопросы?</div>
+                <div class="subtitle">Оставьте свои данные и наш менеджер свяжется с Вами!</div>
+                <input type="tel" class="field phone-mask" placeholder="Ваш телефон *" name="phone" required>
+                <input type="text" class="field" placeholder="Марка авто *" name="marka_avto" required>
+                <input type="submit" value="Отправить" class="btn call-thanksPopup">
+            </form>
+        </div>
+    </div>
+    <footer>Все права защищены © 2019</footer>
+
+    <div id="callBackPopup" class="popup-wrapper">
+        <div class="popup-layout">
+            <div class="popup">
+                <form action="javascript:void(0);" method="POST" id="form-popup">
+                    <input type="hidden" name="subject" id="form-popup-subject">
+                    <h3>Закажите прямо сейчас и получите подарок</h3>
+                    <div class="fields-wrap">
+                        <input required type="tel" class="phone-mask field" placeholder="Ваш номер телефона *" name="phone">
+                        <input required type="text" class="field" placeholder="Марка авто *" name="marka_avto">
+                    </div>
+                    <input class="btn" type="submit" value="ПОДОБРАТЬ авточехол">
+                </form>
+                <div class="popup-close">
+                    <img src="./images/close-popup.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thanksPopup" class="popup-wrapper">
+        <div class="popup-layout">
+            <div class="popup">
+                <h3>Спасибо</h3>
+                <p>Ваша заявка принята, ожидайте звонка менеджера</p>
+                <div class="popup-social">
+                    <div class="popup-social-title">Подписывайтесь на наши соц сети</div>
+                    <div class="social">
+                        <a href=""><img src="./images/youtube.png" alt="youtube"></a>
+                        <a href=""><img src="./images/facebook.png" alt="youtube"></a>
+                        <a href=""><img src="./images/instagram.png" alt="youtube"></a>
+                    </div>
+                </div>
+                <div class="popup-close">
+                    <img src="./images/close-popup.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="quiz" class="popup-wrapper">
+        <div class="popup-layout">
+            <div class="popup">
+                <div class="test">
+                        <div class="wrapper">
+                            <form action="javascript:void(0);" method="POST" id="form-quiz">
+                                <div class="test-item test-first">
+                                    <div class="test-title">
+                                        Подберите авточехлы в соответствии со своими пожеланиями
+                                    </div>
+                                    <div class="test-cnt">
+                                        <p class="test-cnt-info">Ответье всего на 5 вопросов <br>что бы сэкономить 80% времени на поиск и подбор авточехлов</p>
+                                        <button class="btn next-step" data-test="test-second">ПОДОБРАТЬ авточехол</button>
+                                    </div>
+                                </div>
+                                <div class="test-item test-hidden test-step test-second">
+                                    <div class="test-title">В каки цветах Вы хотите сделать салон?</div>
+                                    <div class="test-cnt">
+                                        <div class="test-cnt-checkbox">
+                                            <label for="colorLight">
+                                                <input checked id="colorLight" name="color" type="radio" value="Светлый">
+                                                <div class="checkbox">
+                                                    <div class="checkbox-img"><img src="./images/checkbox-1.jpg" alt="light-color"></div>
+                                                    <div class="checkbox-name">Светлый</div>
+                                                </div>
+                                            </label>
+                                            <label for="colordark">
+                                                <input id="colordark" name="color" type="radio" value="Темный">
+                                                <div class="checkbox">
+                                                    <div class="checkbox-img"><img src="./images/checkbox-2.jpg" alt="dark-color"></div>
+                                                    <div class="checkbox-name">Темный</div>
+                                                </div>
+                                            </label>
+                                            <label for="colorAnother">
+                                                <input id="colorAnother" name="color" type="radio" value="Цветные">
+                                                <div class="checkbox">
+                                                    <div class="checkbox-img"><img src="./images/checkbox-3.jpg" alt="another-color"></div>
+                                                    <div class="checkbox-name">Цветные</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <button class="btn next-step" data-test="test-third">Далее</button>
+                                    </div>
+                                </div>
+                                <div class="test-item test-hidden test-step test-third">
+                                    <div class="test-title">Что для Вас важнее всего?</div>
+                                    <div class="test-cnt">
+                                        <div class="test-cnt-checkbox">
+                                            <label for="factorPrice">
+                                                <input checked id="factorPrice" name="factor" type="radio" value="Цена">
+                                                <div class="checkbox">
+                                                    <div class="checkbox-img  checkbox-img-discount"><img src="./images/checkbox-4.jpg" alt="light-color"></div>
+                                                    <div class="checkbox-name">Цена</div>
+                                                </div>
+                                            </label>
+                                            <label for="factorEase">
+                                                <input id="factorEase" name="factor" type="radio" value="Легкость в установки">
+                                                <div class="checkbox">
+                                                    <div class="checkbox-img"><img src="./images/checkbox-5.jpg" alt="dark-color"></div>
+                                                    <div class="checkbox-name">Легкость в установки</div>
+                                                </div>
+                                            </label>
+                                            <label for="factorView">
+                                                <input id="factorView" name="factor" type="radio" value="Хорошо сидели">
+                                                <div class="checkbox">
+                                                    <div class="checkbox-img"><img src="./images/checkbox-6.jpg" alt="another-color"></div>
+                                                    <div class="checkbox-name">Хорошо сидели</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <button class="btn next-step" data-test="test-four">Далее</button>
+                                    </div>
+                                </div>
+                                <div class="test-item test-hidden test-step test-step-checkbox test-four">
+                                    <div class="test-title">На какую сумму расчитываете ?</div>
+                                    <div class="test-cnt">
+                                        <div class="test-cnt-checkbox">
+                                            <label for="sum95">
+                                                <input checked id="sum95" name="sum" type="radio" value="От 950 грн до 1600 грн">
+                                                <div class="checkbox checkbox">
+                                                    <div class="checkbox-field"></div>
+                                                    <div class="checkbox-title">От 1300 грн до 1700 грн</div>
+                                                </div>
+                                            </label>
+                                            <label for="sum1600">
+                                                <input id="sum1600" name="sum" type="radio" value="От 1600 грн до 2400 грн">
+                                                <div class="checkbox">
+                                                    <div class="checkbox-field"></div>
+                                                    <div class="checkbox-title">От 1700 грн до 2500 грн</div>
+                                                </div>
+                                            </label>
+                                            <label for="sum2100">
+                                                <input id="sum2100" name="sum" type="radio" value="От 2100 грн до 2890 грн">
+                                                <div class="checkbox">
+                                                    <div class="checkbox-field"></div>
+                                                    <div class="checkbox-title">От 2500 грн до 4200 грн</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <button class="btn next-step" data-test="test-five">Далее</button>
+                                    </div>
+                                </div>
+                                <div class="test-item  test-hidden test-step test-step-checkbox test-step-checkbox-column test-five">
+                                    <div class="test-title">Выберите свой подарок</div>
+                                    <div class="test-cnt">
+                                        <div class="test-cnt-checkbox">
+                                            <label for="present10">
+                                                <input  checked id="present10" name="present" type="radio" value="10% скидка на 2 комлект чехлов для друга">
+                                                <div class="checkbox checkbox-column">
+                                                    <div class="checkbox-img"><img src="./images/checkbox-7.jpg" alt="light-color"></div>
+                                                    <div class="checkbox-field-wrap checkbox-field-wrap-2">
+                                                        <div class="checkbox-field"></div>
+                                                        <div class="checkbox-title">10% скидка на 2 комлект чехлов для друга</div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                            <label for="presentSpray">
+                                                <input id="presentSpray" name="present" type="radio" value="Спрей для чистки">
+                                                <div class="checkbox checkbox-column">
+                                                    <div class="checkbox-img"><img src="./images/checkbox-8.jpg" alt="light-color"></div>
+                                                    <div class="checkbox-field-wrap">
+                                                        <div class="checkbox-field"></div>
+                                                        <div class="checkbox-title">Спрей для чистки сидений</div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                            <label for="present15">
+                                                <input id="present15" name="present" type="radio" value="15% скидки на коврики">
+                                                <div class="checkbox checkbox-column">
+                                                    <div class="checkbox-img"><img src="./images/checkbox-9.jpg" alt="light-color"></div>
+                                                    <div class="checkbox-field-wrap">
+                                                        <div class="checkbox-field"></div>
+                                                        <div class="checkbox-title">15% скидки на коврики</div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <button class="btn next-step" data-test="test-six">Далее</button>
+                                    </div>
+                                </div>
+                                <div class="test-item   test-hidden  test-first test-six">
+                                    <div class="test-title">ТЕСТ ПРОЙДЕН! Спасибо за Ваши ответы</div>
+                                    <div class="test-cnt">
+                                        <div class="test-cnt-checkbox">
+                                            <p class="test-cnt-info">Ответье на несколько вопросов и получите подборку из 10 актульаных<br>предложений для Вашего Авто</p>
+                                            <div class="form-end">
+                                                <input required type="tel" class="field phone-mask" placeholder="Ваш номер телефона" name="phone">
+                                                <input type="hidden" name="subject" value="Квиз">
+                                                <input type="submit" class="btn call-thanksPopup" value="ПОДОБРАТЬ авточехол">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                   
+                                <div class="popup-close">
+                                    <img src="./images/close-popup.png" alt="image">
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <!--libs-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="./js/libs/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/libs/slick.min.js"></script>
+    <!-- <script src="./js/libs/wow.js"></script> -->
+    <script src="./js/libs/jquery.maskedinput.js"></script>
+    <script src="./js/libs/jquery.fancybox.min.js"></script>
+    
+    <!--general-->
+    <script type="text/javascript" src="js/common.js"></script>
+
+    <!-- send script -->
+    <script src="js/send.js"></script>
+</body>
+</html>
